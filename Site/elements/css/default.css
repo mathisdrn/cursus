@@ -1,0 +1,115 @@
+/* General style */
+
+body {
+    background-color: #35373c;
+}
+
+body, div, a, p, h1, h2, h3, h4, h5, h6 {
+    margin : 0;
+    padding : 0;
+}
+
+p, h1, h2, h3, h4, h5, h6, form, label {
+    color: white;
+}
+
+a, a:link, a:visited, a:hover, a:focus, a:active{
+    color: inherit;
+    text-decoration:none;
+}
+
+p, h4, h5, h6 {
+    font-family: 'Noto Sans', monospace;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 661; 
+/*530;580;661*/
+}
+
+p {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+body .underline {
+    text-decoration: underline;
+}
+
+img.circle {
+    border-radius : 50%;
+}
+
+/*LAYOUT ORGANISATION */
+
+.contentSection {
+    width: 100%;
+    margin: 0;
+}
+
+.contentSection .contentTitle {
+    padding-left: 8%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.contentSection .contentContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.inline {
+    display : inline;
+}
+
+div.grid {
+    display: grid;
+}
+
+.grid.fr3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid.fr4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid.fr5 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grey {
+    background-color: #232323;
+}

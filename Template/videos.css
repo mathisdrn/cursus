@@ -1,0 +1,38 @@
+.contentContainer.videos {
+    grid-auto-rows: auto;
+    grid-column-gap : 0px;
+    grid-row-gap : 30px;
+    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+}
+
+.grid .contentDiv {
+    margin : 0 auto;
+}
+
+.contentDiv .videoInformation {
+    margin : 0 auto;
+    width : auto;
+    height : auto;
+    padding : 5px 4px 0px 4px;
+}
+
+.videoTagContainer {
+    padding-top : 0.3em;
+}
+
+/* 
+ 
+.contentSection
+    .contentContainer .grid .videos
+        .contentDiv
+            .video
+            .videoInformation
+                .videoTitle
+                .videoAuteur (auteur + intervenant)
+                .videoTagContainer
+            .
+        .
+    .
+. 
+
+*/

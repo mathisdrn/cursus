@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+/*TAG*/
+
+.tag {
+    background-color : #757575;
+    display: inline-block;
+    padding : 0.1em 0.3em;
+    margin: 0.2em 0.1em;
+    border-radius : 1em;
+
+    vertical-align: middle;
+    text-decoration: none !important;
+    color: black;
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+}
+
+h3 > .tag {
+    font-size : 30px;
+    font-family: 'Playfair Display', 'Roboto', serif;
+    font-weight: 700;
+}
+
+h4 > .tag {
+    font-size : 16px;
+}
+
+h5 > .tag {
+    font-size : 14px;
+}
+
+h6 > .tag {
+    font-size : 12px;
+}
+
+.économie {
+    background-color: #EF9A9A !important;
+}
+
+.finance {
+    background-color: #F48FB1 !important;
+}
+
+.commerce, .commerce_international {
+    background-color: #CE93D8 !important;
+}
+
+.interview {
+    background-color: #651FFF !important;
+}
+
+.politique {
+    background-color: #B39DDB !important;
+}
+
+.retraite {
+    background-color: #9FA8DA !important;
+}
+
+.journalisme {
+    background-color: #90CAF9 !important;
+}
+
+.agroalimentaire {
+    background-color : #81D4FA !important;
+}
+
+.krach {
+    background-color : #80DEEA !important;
+}
+
+.bourse {
+    background-color : #80CBC4 !important;
+}
+
+.écologie {
+    background-color : #A5D6A7 !important;
+}
+
+.green-washing {
+    background-color: #C5E1A5 !important;
+}
+
+.coronavirus {
+    background-color: #E6EE9C !important;
+}
+
+.capitalisme {
+    background-color: #FFF59D !important;
+}
+
+.communisme {
+    background-color: #FFE082 !important;
+}
+
+.dictature {
+    background-color: #FFCC80 !important;
+}
+
+.démocratie {
+    background-color: #FFAB91 !important;
+}
+
+.république {
+    background-color: #BCAAA4 !important;
+}
+
+.sociologie {
+    background-color: #B0BEC5 !important;
+}
+
+/* https://material.io/design/color/the-color-system.html#tools-for-picking-colors */

@@ -1,0 +1,159 @@
+.modal {
+    position: fixed;
+    top : 0;
+    left : 0;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    outline : 0;
+    pointer-events : none;
+    z-index : 10;
+    overflow : auto;
+
+    box-sizing : border-box;
+    
+    background-color: #262626;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 200ms, opacity 200ms ease-in;
+    -webkit-transition: visibility 0s linear 200ms, opacity 200ms ease-in;
+    -moz-transition: visibility 0s linear 200ms, opacity 200ms ease-in;
+}
+
+.modal.active {
+    visibility: visible;
+    pointer-events: all;
+    transition: opacity 200ms ease-in;
+    -webkit-transition: opacity 200ms ease-in;
+    -moz-transition: opacity 200ms ease-in;
+    opacity: 1;
+}
+
+.closeButtonContainer {
+    padding : 0.6em 0 0.6em 2em;
+    margin-bottom : 80px;
+    
+}
+
+.close-button {
+    border : none;
+    outline : none;
+    background : none;
+    display : inline;
+    
+    cursor : pointer;
+    font-size : 4rem;
+    color : white;
+}
+
+.videoContentContainer {
+    width: 90%;
+    margin : 0 auto;
+    
+    display : flex;
+    flex-flow : row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start
+}
+
+.playerContainer {
+    flex-basis: 640px;
+}
+
+.iframeContainer {
+    position : relative;
+    width: 100%;
+    padding-bottom : 56.25%;
+    height : 0;
+}
+
+.iframeContainer .player {
+    position : absolute;
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 100%;
+}
+
+.infoContainer {
+    flex-basis : 310px;
+    flex-grow : 1;
+    justify-items: start;
+    padding-left: 1.5em;
+}
+
+.divVideoTitle {
+    padding : 1em 2em 0.2em 0;
+}
+
+.sourceDiv {
+    padding : 0.1em 2em 0.1em 0;
+}
+
+span.auteur, span.intervenant {
+    padding : 0;
+}
+
+.support_link {
+    padding:0.3em 1.5em 0em 0;
+}
+
+.hidden {
+    display : none;
+}
+
+.support_button {
+    display : flex;
+    align-items : center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding:0.35em 0.6em;
+    width: max-content;
+    
+    border:0.05em solid #FFFFFF;
+    border-radius:0.12em;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    
+    transition: all 0.2s;
+}
+
+.support_button:hover {
+    color:#000000;
+    background-color:#FFFFFF;
+}
+
+.support_button:hover #icon_euro {
+    filter : brightness(0%);
+}
+
+.support_button span {
+    padding-top : 2px;
+    padding-left : 7px;
+}
+
+#icon_euro {
+    width : 24px;
+    height : 24px;
+}
+
+
+.videoTagContainer.dispVideo {
+    padding : 0.6em 2em 0.5em 0;
+}
+
+.descDiv {
+    padding : 0.1em 2em 1em 0;
+}
+
+.source {
+    font-size : 1.1em;
+}
+
+.description {
+    line-height: 1.8em;
+}

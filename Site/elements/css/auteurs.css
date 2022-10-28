@@ -1,0 +1,62 @@
+/* Auteurs style */
+
+.contentContainer.auteurs {
+    grid-row-gap: 40px;
+    margin : 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.auteurImgDiv  {
+    width: 128px;
+    height: 128px;
+    margin: 0 auto;
+}
+
+.auteurInfo .auteurName {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Auteur Specific Page */
+
+.contentContainer.auteurInfo {
+    padding : 40px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contentContainer .imgContainer {
+    width: 200px;
+    height : 200px;
+    flex-basis: auto;
+}
+
+.contentContainer .infoContainer {
+    padding-left : 40px;
+}
+
+a.button {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+a.button:hover {
+    color:#000000;
+    background-color:#FFFFFF;
+}
+
+a.button.donation {
+    font-size : 20px;
+}

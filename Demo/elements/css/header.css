@@ -1,0 +1,18 @@
+/* HEADER style */
+
+header {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background : url("../image/footerBack.jpg") 0% 0% no-repeat;
+    background-image: url("../image/footerBack.jpg");
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: cover;
+}
+
+header .divTitle {
+    padding-top: 40px;
+    padding-bottom: 70px;
+    padding-left: 12%;
+}
