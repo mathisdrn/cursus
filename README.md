@@ -1,5 +1,3 @@
 # cursus
 
-### Presentation
-
-Cursus is a project which gather quality video from YouTube under category and bring additional information about videos : topic, speaker, contributor, etc.
+**cursus** is a community based platform which gather videos of quality from YouTube and allow user to have additional information about videos : topic of discussion, speaker, contributor, etc.
